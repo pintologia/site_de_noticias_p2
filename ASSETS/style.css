@@ -1,32 +1,62 @@
-body{
-    
-    padding: 0%;
-    margin: 0%;
-    font-family: sans-serif, 'Times New Roman', Times, serif;
-    background-color:#6495ED;
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-/** INDEX **/
-
-nav{
-    background-color:#088F8F;
-   font-size: 18px;
-   text-decoration: none;
-
-
+body {
+	background-image: url(https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?cs=srgb&dl=pexels-brotin-biswas-518543.jpg&fm=jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
 }
-nav a{
-  color: white;
-  text-decoration: none; 
-  position: relative;
-  font-weight: 10;
-  margin: 4px;
-  float: left;
- }
-
- nav a:hover{
-     background-color: #088F8F;
-     
+.menu-area li a {
+	text-decoration: none;
+	color: #fff;
+	/*** letter-spacing: 1px; ***/
+	text-transform: uppercase;
+	display: block;
+	padding: 0 25px;
+	font-size: 12px;
+	line-height: 30px;
+	position: relative;
+	z-index: 1;
 }
-nav a:active{
-    background-color:#00A36C;
+.menu-area li {
+	list-style: none;
+	display: inline-block;
+}
+.custom-padding {
+	padding-top: 25px;
+}
+nav {
+	position: relative;
+	padding: 10px 20px 10px 10px;
+	text-align: right;
+	z-index: 1;
+	background: #333;
+	margin: 4px auto;
+	width: calc(100% - 60px);
+}
+.logo {
+	width: 15%;
+	float: left;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 25px;
+	text-align: left;
+	padding-left: 2%;
+}
+.menu-area li a:hover {
+	background: tomato;
+	color: #fff;
+}
+
+.menu-area li a:active{
+	background: tomato;
+	color: #fff;
+
 }
